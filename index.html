@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset='UTF-8'>
+  <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+  <title>Aromantica</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;700;800&display=swap" rel="stylesheet">
+
+  <link href='assets/css/bootstrap.min.css' rel='stylesheet'>
+  <link href='assets/css/slick.css' rel='stylesheet'>
+  <link href='assets/css/slick-theme.css' rel='stylesheet'>
+  <link href='assets/css/font-awesome.css' rel='stylesheet'>
+  <link href='assets/css/animate.css' rel='stylesheet'>
+  <link href='assets/css/main.css' rel='stylesheet'>
+  <link href='assets/css/responsive.css' rel='stylesheet'>
+</head>
+
+<body>
+  <nav class='navbar navbar-expand-md navbar-fixed-js'>
+    <div class='container'>
+      <a class='navbar-brand' href='#'>
+        <img alt='' src='assets/img/logo.png'>
+      </a>
+      <button class='navbar-toggler p-2 border-0 hamburger hamburger--elastic d-none-lg' data-toggle='offcanvas'
+        type='button'>
+        <span class='hamburger-box'>
+          <span class='hamburger-inner'></span>
+        </span>
+      </button>
+      <div class='offcanvas-collapse fil' id='navbarNav'>
+        <ul class='navbar-nav'>
+          <li class='nav-item active'>
+            <a class='nav-link active' href='#inicio'>Inicio</a>
+          </li>
+          <li class='nav-item'>
+            <a class='nav-link' href='#tienda'>Tienda</a>
+          </li>
+          <li class='nav-item dropdown'>
+            <a href='#' aria-expanded='false' aria-haspopup='true' class='nav-link dropdown-toggle'
+              data-toggle='dropdown'>
+              Categorias
+            </a>
+            <div aria-labelledby='dropdownMenuButton' class='dropdown-menu'>
+              <div class='content-drop'>
+                <a class='dropdown-item' href='#'>
+                  <p> Categoria 1</p>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class='nav-item dropdown'>
+            <a href='#' aria-expanded='false' aria-haspopup='true' class='nav-link dropdown-toggle'
+              data-toggle='dropdown'>
+              Inicia sesión
+            </a>
+            <div aria-labelledby='dropdownMenuButton' class='dropdown-menu'>
+              <div class='content-drop'>
+                <a class='dropdown-item' href='#'>
+                  <p>Registrase</p>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class='nav-item'>
+            <a class='nav-link' href='#tienda'><i class="fa fa-shopping-cart"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-----banner---->
+
+  <div class="main-banner container bg-blue">
+    <div class="main-banner__content">
+      <div class="main-banner__item">
+        <div class="main-banner__text">
+          <div class="main-banner__title animated fadeIn wow">
+            <p class="subtitulo">Las fragancias más populares del</p>
+            <p class="titulo">Mundo de la perfumería</p>
+          </div>
+          <div class="main-banner__btn ">
+
+            <a href="" class="btn-custom ">Ir a la tienda</a>
+          </div>
+        </div>
+        <div class="main-banner__img">
+          <img src="assets/img/banner.jpg">
+        </div>
+      </div>
+
+      <div class="main-banner__item">
+        <div class="main-banner__text">
+          <div class="main-banner__title animated fadeIn wow">
+            <p class="subtitulo">Las fragancias más populares del</p>
+            <p class="titulo">Mundo de la perfumería</p>
+          </div>
+          <div class="main-banner__btn ">
+
+            <a href="" class="btn-custom ">Ir a la tienda</a>
+          </div>
+        </div>
+        <div class="main-banner__img">
+          <img src="assets/img/banner.jpg">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-----cateoria---->
+  <section id="categorias" class="">
+    <div class="title__general">
+      <h2>Categorías</h2>
+    </div>
+    <div class="main-categories">
+      <div class="main-categories__item">
+        <a href="#">
+          <div class="main-categories__content categories-transition"
+            style="background-image: url('assets/img/categorias/dama.jpg');">
+            <div class="mask_deg">
+              <div class="titulo">
+                Damas
+                <i class="fa fa-arrow"></i>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="main-categories__item">
+        <a href="#">
+          <div class="main-categories__content categories-transition"
+            style="background-image: url('assets/img/categorias/caballero.jpg');">
+            <div class="mask_deg">
+              <div class="titulo">
+                Caballeros
+                <i class="fa fa-arrow"></i>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="main-categories__item">
+        <a href="#">
+          <div class="main-categories__content categories-transition"
+            style="background-image: url('assets/img/categorias/niños.jpg');">
+            <div class="mask_deg">
+              <div class="titulo">
+                Niños
+                <i class="fa fa-arrow"></i>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="main-categories__item">
+        <a href="#">
+          <div class="main-categories__content categories-transition"
+            style="background-image: url('assets/img/categorias/crema.jpg');">
+            <div class="mask_deg">
+              <div class="titulo">
+                Cremas
+                <i class="fa fa-arrow"></i>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-----top perfumes---->
+  <section id="top" class="">
+    <div class="title__general">
+      <h2>Top perfumes</h2>
+    </div>
+    <div class="">
+      <div class="container">
+        <div class="main-top__content">
+          <div class="main">
+            <!---mini cards ---->
+            <div class="slider slider-nav">
+              <!---mini cards imagen ---->
+              <div>
+                <div class="main-top__img">
+                  <img src="assets/img/productos/perfume1.png">
+                </div>
+              </div>
+              <!---mini cards imagen ---->
+              <!---mini cards imagen ---->
+              <div>
+                <div class="main-top__img">
+                  <img src="assets/img/productos/perfume2.png">
+                </div>
+              </div>
+
+            </div>
+            <!---mini cards ---->
+
+            <!---cards detalle---->
+            <div class="slider slider-for">
+              <div>
+                <div class="main-top__container">
+                  <div class="main-top__item">
+                    <div class="main-top__text">
+                      <div class="main-top__title">
+                        <p>CH MEN PRIVÉ </p>
+                      </div>
+                      <div class="main-top__price">
+                        <p>En tan solo:<span> $85,000.00</span> </p>
+
+                      </div>
+                      <div class="main-top__description">
+                        <p>CH Men Privé es una fragancia refinada y un tributo a la masculinidad extremadamente
+                          cautivador. Una firma sensual, al mismo tiempo rica, con textura y misteriosa. CH Men Privé es
+                          cálida y lujosa, con notas de whisky y de cuero, provocativa, moderna y rica.</p>
+                      </div>
+                      <div class="main-top__details">
+                        <span>50ml</span>
+                        <span>100ml</span>
+                        <span>150ml</span>
+                      </div>
+
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25"
+                          aria-valuemin="0" aria-valuemax="10"></div>
+                      </div>
+                      <div class="float-left main-top__btn">
+                        <a class="btn-custom" href="#">
+                          Ordene ya
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="main-top__item">
+                    <div class="main-top__img">
+                      <img src="assets/img/productos/perfume1.png">
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div>
+                <div class="main-top__container">
+                  <div class="main-top__item">
+                    <div class="main-top__text">
+                      <div class="main-top__title">
+                        <p>Lorem ipsum</p>
+                      </div>
+                      <div class="main-top__price">
+                        <p>En tan solo:<span> $85,000.00</span> </p>
+
+                      </div>
+                      <div class="main-top__description">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim ad molestiae, libero atque
+                          natus, at explicabo quo voluptas autem iusto obcaecati voluptate maxime. Illum, beatae non
+                          pariatur voluptatum itaque voluptas..</p>
+                      </div>
+                      <div class="main-top__details">
+                        <span>50ml</span>
+                        <span>100ml</span>
+                        <span>150ml</span>
+                      </div>
+
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25"
+                          aria-valuemin="0" aria-valuemax="10"></div>
+                      </div>
+                      <div class="float-left main-top__btn">
+                        <a class="btn-custom" href="#">
+                          Ordene ya
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="main-top__item">
+                    <div class="main-top__img">
+                      <img src="assets/img/productos/perfume2.png">
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+            <!---cards detalle---->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-----products---->
+  <section>
+    <div class="title__general">
+      <h2>Fragancias recomendadas</h2>
+    </div>
+    
+  </section>
+
+
+
+
+  <script src='assets/js/jquery.min.js'></script>
+  <script src='assets/js/bootstrap.min.js'></script>
+  <script src="assets/js/slick.min.js"></script>
+  <script src="assets/js/setting-slick.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+  <script src="assets/js/wow-settings.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
