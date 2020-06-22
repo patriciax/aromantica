@@ -88,5 +88,11 @@
     padding: 8px 30px 8px;
     box-shadow: 0px 0px 10px #00000040;
     border-radius: 10px;
+    color: black;
 }
 
+.btn-login2{
+    background: #45639E;
+    color: #fff;
+    font-weight: 300;
+}
