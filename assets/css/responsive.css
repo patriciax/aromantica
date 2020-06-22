@@ -18,9 +18,17 @@
         position: absolute;
     }
     .slick-slide img {
-        height: 90vh;
+      
         box-shadow: none;
         border-radius: 10px;
+    }
+    .main-categories {
+
+        grid-template-columns: 1fr;
+    }
+    .main-footer,.grid_foote,.categorias_grid,.main-filtro__grid,.filtro_card {
+        grid-template-columns: 1fr;
+
     }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
